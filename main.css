@@ -1,0 +1,17 @@
+body {
+  background: url('assets/freedom.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+section {
+  text-align: center;
+  margin-top: 90px;
+}
+blockquote {
+  letter-spacing: .02em;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-family: "Yu Gothic UI Light";
+}
+#Name {
+  font-style: oblique;
+}
