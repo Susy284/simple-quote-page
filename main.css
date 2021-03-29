@@ -1,15 +1,20 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 100%;
+}
+body {
   background: url('assets/freedom.jpg') no-repeat center center fixed;
   background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 section {
   margin: 0 auto;
   text-align: center;
-  margin-top: 90px;
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
 }
 blockquote {
   letter-spacing: .02em;
@@ -17,7 +22,33 @@ blockquote {
   font-size: 1.7em;
   text-transform: uppercase;
   font-family: "Yu Gothic UI Light";
+  margin-top: 90px;
 }
 #Name {
   font-style: oblique;
+}
+@media screen and (max-width: 1020px) {
+  section {
+    float: none;
+    width: auto;
+    display: none;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 200px;
+}
+li {
+  display: inline;
+}
+img {
+  height: 1.5em;
+  width: auto;
+  border-radius: 50%;
+  opacity: 80%;
+}
+img:hover {
+  transform: scale(1.2);
 }
