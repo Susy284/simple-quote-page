@@ -15,40 +15,39 @@ section {
   text-align: center;
   color: black;
   text-shadow: 2px 2px 4px #000000;
+  margin-top: 3rem;
 }
 blockquote {
-  letter-spacing: .02em;
+  letter-spacing: .02rem;
   line-height: 1.5;
-  font-size: 1.7em;
+  font-size: 1.7rem;
   text-transform: uppercase;
   font-family: "Yu Gothic UI Light";
-  margin-top: 90px;
+  padding: 2.5rem;
 }
 #Name {
   font-style: oblique;
-}
-@media screen and (max-width: 1020px) {
-  section {
-    float: none;
-    width: auto;
-    display: none;
-  }
 }
 ul {
   list-style: none;
   padding: 0;
   text-align: center;
-  margin-top: 200px;
 }
 li {
   display: inline;
 }
 img {
-  height: 1.5em;
+  height: 2rem;
   width: auto;
+  opacity: 75%;
   border-radius: 50%;
-  opacity: 80%;
+  padding: 1px;
+  background-color: #666;
 }
 img:hover {
   transform: scale(1.2);
+}
+ul {
+  position: relative;
+  top: 12rem;
 }
