@@ -7,47 +7,52 @@
 body {
   background: url('assets/freedom.jpg') no-repeat center center fixed;
   background-size: cover;
-  height: 100vh;
-  width: 100%;
 }
 section {
-  margin: 0 auto;
-  text-align: center;
-  color: black;
+  display: table;
   text-shadow: 2px 2px 4px #000000;
-  margin-top: 3rem;
+  margin: 4rem auto;
+  padding: 1.5rem;
 }
 blockquote {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
   letter-spacing: .02rem;
   line-height: 1.5;
   font-size: 1.7rem;
   text-transform: uppercase;
   font-family: "Yu Gothic UI Light";
   padding: 2.5rem;
+  max-width: 50rem;
+  border: 3px solid #000000;
 }
 #Name {
   font-style: oblique;
+  font-size: 1rem;
+}
+p {
+  margin-bottom: 1rem;
+  
 }
 ul {
   list-style: none;
-  padding: 0;
   text-align: center;
+  position: relative;
+  bottom: -4rem;
+  width: 100%;
 }
 li {
-  display: inline;
+  display: inline-block;
 }
 img {
   height: 2rem;
   width: auto;
   opacity: 75%;
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 1px;
   background-color: #666;
 }
 img:hover {
   transform: scale(1.2);
-}
-ul {
-  position: relative;
-  top: 12rem;
 }
